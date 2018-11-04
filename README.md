@@ -2,9 +2,9 @@
 
 ## About
 
-Part of this code was used to create the results behind our "Privacy-preserving vehicle assignment for mobility-on-demand systems" paper.
-This code loads the relevant data, namely the transport graph and the taxi requests.
-Unfortunately, the Yellow Cab data available at http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml has been updated to obfuscate location information and, as such, this code won't work as is.
+This code was used to create the results in our paper "Privacy-preserving vehicle assignment for mobility-on-demand systems", presented at IROS 2017.
+The code loads the relevant data, namely the transport graph and the taxi requests.
+Since publication of our paper, however, the Yellow Cab data available at http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml has been updated to obfuscate location information and, as such, this code won't work as is.
 
 ## Relevant publication
 
