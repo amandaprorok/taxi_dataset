@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
   graph = data.load_map()
   if args.taxi_filename:
-    taxi_data = data.load_taxi(args.taxi_filename)
+    taxi_data = data.load_taxi(args.taxi_filename, max_rides=int(1e6))
     data.update_edge_speed(graph, taxi_data)
 
   plotting.show_map(graph)

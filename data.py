@@ -158,10 +158,10 @@ def update_edge_speed(graph, taxi_data,
       if end_time - start_time < ignore_rides_longer_than:
         continue
       # Assume taxi took shortest route.
-      u_node, du = nearest_neighbor_searcher.Search(u)
+      u_node, du = nearest_neighbor_searcher.search(u)
       if du > ignore_location_greater_than:
         continue
-      v_node, dv = nearest_neighbor_searcher.Search(v)
+      v_node, dv = nearest_neighbor_searcher.search(v)
       if dv > ignore_location_greater_than:
         continue
       route = routes[u_node][v_node]
